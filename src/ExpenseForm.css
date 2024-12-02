@@ -1,0 +1,38 @@
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #3e3b47;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.expense-form input {
+  font: inherit;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #2d2c31;
+  color: white;
+}
+
+.expense-form button {
+  background-color: #a63a00;
+  color: white;
+  padding: 10px 20px;
+  font: inherit;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.expense-form button:hover {
+  background-color: #ff5900;
+}
+
+.expense-form__actions {
+  display: flex;
+  justify-content: space-between;
+}

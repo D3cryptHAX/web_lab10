@@ -1,0 +1,18 @@
+.expenses-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2d2c31;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}

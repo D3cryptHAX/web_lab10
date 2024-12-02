@@ -1,0 +1,42 @@
+/* Loader.css */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cssload-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.cssload-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  animation: bounce 0.6s infinite alternate;
+}
+
+.cssload-circle:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.cssload-circle:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.cssload-circle:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}

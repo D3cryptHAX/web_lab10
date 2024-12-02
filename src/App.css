@@ -1,0 +1,14 @@
+body {
+    background-color: #2d2c31;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

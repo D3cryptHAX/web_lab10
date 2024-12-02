@@ -1,0 +1,19 @@
+.new-expense {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.new-expense button {
+  background-color: #a63a00;
+  color: white;
+  padding: 10px 20px;
+  font: inherit;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.new-expense button:hover {
+  background-color: #ff5900;
+}
